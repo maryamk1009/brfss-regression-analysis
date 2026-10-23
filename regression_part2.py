@@ -8,8 +8,6 @@ we never store rows, we only keep running sums:
     sum_y, sum_y2, n
 then beta = A^-1 z and adjusted R^2 comes straight from the same sums.
 
-in the final notebook paste this cell right under part 1's code
-(drop the import line below since iter_health_records will already be defined).
 """
 
 import numpy as np
