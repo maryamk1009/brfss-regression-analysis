@@ -9,11 +9,6 @@ import os
 import zipfile
 from io import TextIOWrapper
 
-
-# ---------------------------------------------------------------------------
-# helper functions copied unchanged from LR-BRFSS.ipynb / functions.py
-# ---------------------------------------------------------------------------
-
 def fieldDictBuild():
     fieldDict = dict.fromkeys([0, 1, 2, 3, 11, 12, 13, 14])
 
